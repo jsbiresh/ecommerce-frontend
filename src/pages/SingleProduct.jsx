@@ -9,13 +9,13 @@ import Color from "../components/Color";
 import { TbGitCompare } from "react-icons/tb";
 import { AiOutlineHeart } from "react-icons/ai";
 // =================
-import prodcompare from '../images/prodcompare.svg'
-import wish from '../images/wish.svg'
-import wishlist from '../images/wishlist.svg'
-import watch from '../images/watch.jpg'
-// import watch2 from '../images/watch-1.jpg'
-import addcart from '../images/add-cart.svg'
-import view from '../images/view.svg'
+// import prodcompare from '../images/prodcompare.svg'
+// import wish from '../images/wish.svg'
+// import wishlist from '../images/wishlist.svg'
+// import watch from '../images/watch.jpg'
+// // import watch2 from '../images/watch-1.jpg'
+// import addcart from '../images/add-cart.svg'
+// import view from '../images/view.svg'
 
 const SingleProduct = () => {
   const [orderedProduct, setOrderedProduct] = useState(true);
