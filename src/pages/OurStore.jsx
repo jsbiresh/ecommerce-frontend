@@ -19,7 +19,7 @@ const OurStore = () => {
         <div className="row">
           <div className="col-3">
             <div className="filter-card mb-3">
-              <h3 className="filter-title">Shop By Categories</h3>
+              <h3 className="filter-title">Shoppe By Categories</h3>
               <div>
                 <ul className="ps-0">
                   <li>Watch</li>
