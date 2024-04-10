@@ -13,7 +13,6 @@ const Cart = () => {
       <BreadCrumb title="Cart" />
 
       <Container  class1="cart-wrapper home-wrapper-2 py-5">
-        
           <div className="row">
             <div className="col-12">
               <div className="cart-header py-3 d-flex justify-content-between align-items-center">

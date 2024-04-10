@@ -1,6 +1,7 @@
 import React from "react";
 import Meta from "../components/Meta";
 import BreadCrumb from "../components/BreadCrumb";
+import Container from "../components/Container";
 
 const Signup = () => {
   return (
@@ -8,9 +9,8 @@ const Signup = () => {
       <Meta title="SignUp Page" />
       <BreadCrumb title="SignUp Page" />
 
-      <div className="login-wrapper home-wrapper-2 py-5">
-       <div className="container-xxl">
-         <div className="row">
+      <Container class1="login-wrapper home-wrapper-2 py-5">
+        <div className="row">
           <div className="col-12">
             <div className="auth-card">
               <h3 className="text-center mb-3">Sign Up</h3>
@@ -58,8 +58,7 @@ const Signup = () => {
             </div>
           </div>
         </div>
-       </div>
-      </div>
+      </Container>
     </>
   );
 };

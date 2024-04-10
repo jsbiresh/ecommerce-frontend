@@ -8,6 +8,7 @@ import ReactImageZoom from "react-image-zoom";
 import Color from "../components/Color";
 import { TbGitCompare } from "react-icons/tb";
 import { AiOutlineHeart } from "react-icons/ai";
+import Container from "../components/Container";
 // =================
 // import prodcompare from '../images/prodcompare.svg'
 // import wish from '../images/wish.svg'
@@ -44,8 +45,7 @@ const SingleProduct = () => {
       <BreadCrumb title="Product Name" />
 
       {/* Main Product */}
-      <div className="main-product-wrapper py-5 home-wrapper-2">
-        <div className="container-xxl">
+      <Container class1="main-product-wrapper py-5 home-wrapper-2">
           <div className="row">
             <div className="col-6">
               <div className="main-product-image">
@@ -207,13 +207,11 @@ const SingleProduct = () => {
               </div>
             </div>
           </div>
-        </div>
-      </div>
+        </Container>
       {/* Main Product Ends */}
 
       {/* Description */}
-      <div className="description-wrapper py-5 home-wrapper-2">
-        <div className="container-xxl">
+      <Container class1="description-wrapper py-5 home-wrapper-2">
           <div className="row">
             <div className="col-12">
               <h4>Description</h4>
@@ -230,13 +228,11 @@ const SingleProduct = () => {
               </div>
             </div>
           </div>
-        </div>
-      </div>
+      </Container>
       {/* Description ENDS*/}
 
       {/* Reviews */}
-      <section className="reviews-wrapper home-wrapper-2">
-        <div className="container-xxl">
+      <Container class1="reviews-wrapper home-wrapper-2">
           <div className="row">
             <div className="col-12">
               <h3 id="review">Reviews</h3>
@@ -316,13 +312,11 @@ const SingleProduct = () => {
               </div>
             </div>
           </div>
-        </div>
-      </section>
+      </Container>
       {/* Reviews ENDS */}
 
       {/* Popular */}
-      <section className="popular-wrapper py-5 home-wrapper-2">
-        <div className="container-xxl">
+      <Container class1="popular-wrapper py-5 home-wrapper-2">
           <div className="row">
             <div className="col-12">
               <h3 className="section-heading">Our Popular Products</h3>
@@ -331,8 +325,7 @@ const SingleProduct = () => {
           <div className="row">
             <ProductCard />
           </div>
-        </div>
-      </section>
+      </Container>
       {/* Popular ENDS */}
     </>
   );

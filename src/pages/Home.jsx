@@ -302,14 +302,14 @@ const Home = () => {
         </div>
       </Container>
 
-      <Container class1='blog-wrapper py-5 home-wrapper-2'>
+      <Container class1="blog-wrapper py-5 home-wrapper-2">
         <div className="row">
-            <h3 className="section-heading">Our Latest Blogs</h3>
-            <BlogCard />
-            <BlogCard />
-            <BlogCard />
-            <BlogCard />
-          </div>
+          <h3 className="section-heading">Our Latest Blogs</h3>
+          <BlogCard />
+          <BlogCard />
+          <BlogCard />
+          <BlogCard />
+        </div>
       </Container>
     </>
   );
