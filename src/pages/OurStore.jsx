@@ -7,7 +7,7 @@ import Color from "../components/Color";
 
 const OurStore = () => {
   const [grid, setGrid] = useState(4);
-  console.log(grid);
+  // console.log(grid);
 
   return (
     <>
@@ -188,7 +188,7 @@ const OurStore = () => {
                     </p>
                     <select name="" className="form-control form-select" id="">
                       <option value="manual">Featured</option>
-                      <option value="best-selling" selected="selected">
+                      <option value="best-selling" >
                         Best Selling
                       </option>
                       <option value="title-ascending">
@@ -244,7 +244,7 @@ const OurStore = () => {
               </div>
               <div className="products-list pb-5">
                 <div className="d-flex gap-10 flex-wrap">
-                <ProductCard grid={grid} />
+                  <ProductCard grid={grid} />
                 </div>
               </div>
             </div>

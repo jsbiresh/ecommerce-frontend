@@ -18,6 +18,7 @@ import { AiOutlineHeart } from "react-icons/ai";
 // import view from '../images/view.svg'
 
 const SingleProduct = () => {
+
   const [orderedProduct, setOrderedProduct] = useState(true);
 
   const props = {
@@ -190,8 +191,8 @@ const SingleProduct = () => {
                   <div className="d-flex gap-10 align-items-center my-3">
                     <h3 className="product-heading">Product Link :</h3>
                     <p className="product-data">
-                      <a
-                        href="javascript:void(0);"
+                      <Link
+                        to="javascript:void(0);"
                         onClick={() => {
                           copyToClipboard(
                             "https://media.istockphoto.com/id/1359180038/photo/wristwatch.jpg?s=612x612&w=0&k=20&c=AWkZ-gaLo601vG5eiQcsjYRjCjDxZdGL7v-jWvvAjEM="
@@ -199,7 +200,7 @@ const SingleProduct = () => {
                         }}
                       >
                         Copy Product link
-                      </a>
+                      </Link>
                     </p>
                   </div>
                 </div>

@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import watch from "../images/watch.jpg";
 
 import { BiArrowBack } from "react-icons/bi";
+import Container from '../components/Container'
 
 const Checkout = () => {
   return (
@@ -13,8 +14,7 @@ const Checkout = () => {
       <Meta title="Cart" />
       <BreadCrumb title="Cart" />
 
-      <div className="checkout-wrapper home-wrapper-2 py-5">
-        <div className="container-xxl">
+      <Container class1="checkout-wrapper home-wrapper-2 py-5">
           <div className="row">
             <div className="col-7">
               <div className="checkout-left-data">
@@ -153,9 +153,8 @@ const Checkout = () => {
                 <h5 className="total-price">$10000</h5>
               </div>
             </div>
-          </div>
         </div>
-      </div>
+      </Container>
     </>
   );
 };
